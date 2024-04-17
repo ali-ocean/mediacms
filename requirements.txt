@@ -31,3 +31,4 @@ django-ckeditor
 django-debug-toolbar==3.2.4
 
 django-login-required-middleware==0.6.1
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
