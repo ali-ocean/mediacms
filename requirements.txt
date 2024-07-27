@@ -1,5 +1,5 @@
-Django==3.1.12
-djangorestframework==3.12.2
+Django==4.2.14
+djangorestframework==3.15.2
 django-allauth==0.44.0
 
 psycopg2-binary==2.8.6
@@ -11,7 +11,7 @@ celery==4.4.7
 
 drf-yasg==1.20.0
 
-Pillow==8.2.0
+Pillow==10.3.0
 django-imagekit
 
 markdown
@@ -22,7 +22,7 @@ django-mptt
 
 django-crispy-forms
 
-requests==2.25.0
+requests==2.32.2
 
 django-celery-email
 m3u8
@@ -31,3 +31,6 @@ django-ckeditor
 django-debug-toolbar==3.2.4
 
 django-login-required-middleware==0.6.1
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
